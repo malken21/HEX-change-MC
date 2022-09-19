@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>HEX change MC</title>
+  <link rel="icon" href="image/favicon.png">
+  <link rel="stylesheet" href="sheet.css">
+
+  <script src="util/color.js"></script>
+  <script src="script.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Noto+Sans:wght@500&display=swap"
+    rel="stylesheet">
+
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="HEX change MC">
+  <meta property="og:description" content="Convert between minecraft color code and HEX color code">
+</head>
+
+<body>
+  <div class="back">
+    <div class="title"></div>
+    <div class="before">
+      <div>HexColor or MinecraftColor</div>
+      <input type="text" id="text" name="name" autocomplete="off" size="15" value="" oninput="input();">
+    </div>
+    <div class="space"></div>
+    <div class="after">
+      <div id="result">result</div>
+      <input type="button" value="copy" onclick="copy();">
+    </div>
+  </div>
+</body>
+
+</html>
